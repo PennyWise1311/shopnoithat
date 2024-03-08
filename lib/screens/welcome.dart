@@ -31,7 +31,7 @@ class _WelcomState extends State<Welcom> {
 
     Timer(const Duration(seconds: 4), () {
 
-      if (hideIntroducePage != null && hideIntroducePage == true) {
+      if (hideIntroducePage == true) {
 
         if(auth.currentUser?.uid != null) {
           Navigator.push(

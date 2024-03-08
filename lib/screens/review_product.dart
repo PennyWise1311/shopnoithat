@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:furniture_app_project/models/order_model.dart';
 import 'package:furniture_app_project/models/product_model.dart';
-import 'package:furniture_app_project/screens/cart.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:provider/provider.dart';
 import 'dart:io';

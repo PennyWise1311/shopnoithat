@@ -1,8 +1,5 @@
 import 'package:furniture_app_project/provider/filter_provider.dart';
-import 'package:furniture_app_project/screens/home.dart';
-import 'package:furniture_app_project/screens/review_product.dart';
 import 'package:furniture_app_project/screens/welcome.dart';
-
 import 'provider/banner_provider.dart';
 import 'provider/category_provider.dart';
 import 'provider/country_city_provider.dart';
@@ -59,17 +56,16 @@ class MyApp extends StatelessWidget {
         title: 'Furniture App',
         theme: ThemeData(
           scaffoldBackgroundColor: const Color(0xfff2f9fe),
-          textTheme: GoogleFonts.dmSansTextTheme().apply(displayColor: Colors.black),
+          textTheme:
+              GoogleFonts.dmSansTextTheme().apply(displayColor: Colors.black),
           primaryColor: const Color(0xff410000),
           iconTheme: const IconThemeData(color: Colors.white),
           visualDensity: VisualDensity.adaptivePlatformDensity,
-
           appBarTheme: const AppBarTheme(
             color: Colors.transparent,
             elevation: 0,
             systemOverlayStyle: SystemUiOverlayStyle.light,
           ),
-
         ),
         debugShowCheckedModeBanner: false,
         home: const Welcom(),

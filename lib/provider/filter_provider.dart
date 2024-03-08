@@ -1,9 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 
-import '../models/category_model.dart';
 import '../models/filter_model.dart';
-import '../models/product_model.dart';
 
 class FilterProvider extends ChangeNotifier {
   List<FilterModel> filterList = [];
